@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24 ene 2021, 17:38:50
+    Author     : Cristopher Salas
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+  font-family: 'Andika New Basic', sans-serif;
+  color: white;
+  background-color: dodgerblue;
+  padding: 15px;
+  padding-top: 50px;
+  text-align: center;
+}
+h2{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 28px;
+}
+
+header{
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+/*a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}*/
+
+.button {
+  font-family: 'Work Sans', sans-serif;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 100px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.contenedor{
+    margin: 130px 150px 150px 110px;
+}
+
+.contenedor2{
+    background-color: white;
+    margin: 120px 450px 150px 450px;
+    padding: 40px 50px 40px 50px;
+}
+
+.contenedor3{
+    background-color: white;
+    margin: 80px 300px 30px 300px;
+    padding: 40px 50px 40px 50px;
+}
+
+.body1{
+    background-color: #D6DBDF;
+}
+
+.body2{
+    background-color: #BFDFF9;
+    margin-bottom: 100px;
+}
+
+.body3{
+    background-color: #F1F6FA;
+}
+
+
+.label1{
+    color:black;
+    font-weight: bold;
+    margin-left: 115px;
+    font-size: 20px;
+}
+
+.label2{
+    color:black;
+    font-weight: bold;
+    margin-left: 90px;
+}
+
+.label3{
+    color:black;
+    font-weight: bold;
+    margin-left: 265px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+img{
+    margin-left: 350px;
+    width: 500px;
+}
+
+.botonCancelar{
+    margin-left: 580px;
+    margin-top: 10px;
+}
